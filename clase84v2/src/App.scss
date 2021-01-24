@@ -2,6 +2,10 @@ body {
   background-color: rgb(168, 218, 238);
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   h1 {
     color: royalblue;
     font-size: 20px;
