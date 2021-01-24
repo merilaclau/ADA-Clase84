@@ -7,15 +7,6 @@ import axios from 'axios';
 const App = () => {
   const [image, setImage] = useState(null);
 
-  /*const getImage = async () => {
-    try {
-      
-    }
-    catch (err) {
-      alert('Error getting image ${err}');
-    }
-  }*/
-
   const getImages = async () => {
     try {
       const res = await axios.get("https://api.thecatapi.com/v1/images/search");
